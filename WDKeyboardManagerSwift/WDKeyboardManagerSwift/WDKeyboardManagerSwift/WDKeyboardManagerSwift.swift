@@ -9,10 +9,10 @@
 import UIKit
 import Foundation
 
-class WDKeyboardManagerSwift: NSObject {
+open class WDKeyboardManagerSwift: NSObject {
 
     static let offsetFromKeyboard:CGFloat = 10.0
-    static let sharedInstance = WDKeyboardManagerSwift()
+    open static let sharedInstance = WDKeyboardManagerSwift()
     
     var window: UIWindow?
     var tapGesture: UITapGestureRecognizer?
