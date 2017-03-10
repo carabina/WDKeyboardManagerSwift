@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5221DB61E7217CD00FB00CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5221DB51E7217CD00FB00CA /* AppDelegate.swift */; };
+		F5221DBE1E7217CD00FB00CA /* WDKeyboardManagerSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5221DBC1E7217CD00FB00CA /* WDKeyboardManagerSwift.xcdatamodeld */; };
+		F5221DC01E7217CD00FB00CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5221DBF1E7217CD00FB00CA /* Assets.xcassets */; };
+		F5221DC31E7217CD00FB00CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5221DC11E7217CD00FB00CA /* LaunchScreen.storyboard */; };
+		F5221DCE1E7217CE00FB00CA /* WDKeyboardManagerSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5221DCD1E7217CE00FB00CA /* WDKeyboardManagerSwiftTests.swift */; };
+		F5221DD91E7217CE00FB00CA /* WDKeyboardManagerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5221DD81E7217CE00FB00CA /* WDKeyboardManagerSwiftUITests.swift */; };
+		F5221DE71E7217FD00FB00CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5221DE61E7217FD00FB00CA /* Main.storyboard */; };
+		F5221DEA1E7218B500FB00CA /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5221DE91E7218B500FB00CA /* Page1ViewController.swift */; };
+		F5221DEC1E7218BE00FB00CA /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5221DEB1E7218BE00FB00CA /* Page2ViewController.swift */; };
+		F5221DF11E721C8200FB00CA /* WDKeyboardManagerSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5221DF01E721C8200FB00CA /* WDKeyboardManagerSwift.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5221DCA1E7217CE00FB00CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5221DAA1E7217CD00FB00CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5221DB11E7217CD00FB00CA;
+			remoteInfo = WDKeyboardManagerSwift;
+		};
+		F5221DD51E7217CE00FB00CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5221DAA1E7217CD00FB00CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5221DB11E7217CD00FB00CA;
+			remoteInfo = WDKeyboardManagerSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5221DB21E7217CD00FB00CA /* WDKeyboardManagerSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WDKeyboardManagerSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5221DB51E7217CD00FB00CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5221DBD1E7217CD00FB00CA /* WDKeyboardManagerSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WDKeyboardManagerSwift.xcdatamodel; sourceTree = "<group>"; };
+		F5221DBF1E7217CD00FB00CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5221DC21E7217CD00FB00CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5221DC41E7217CD00FB00CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5221DC91E7217CE00FB00CA /* WDKeyboardManagerSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDKeyboardManagerSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5221DCD1E7217CE00FB00CA /* WDKeyboardManagerSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDKeyboardManagerSwiftTests.swift; sourceTree = "<group>"; };
+		F5221DCF1E7217CE00FB00CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5221DD41E7217CE00FB00CA /* WDKeyboardManagerSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDKeyboardManagerSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5221DD81E7217CE00FB00CA /* WDKeyboardManagerSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDKeyboardManagerSwiftUITests.swift; sourceTree = "<group>"; };
+		F5221DDA1E7217CE00FB00CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5221DE61E7217FD00FB00CA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F5221DE91E7218B500FB00CA /* Page1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
+		F5221DEB1E7218BE00FB00CA /* Page2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
+		F5221DF01E721C8200FB00CA /* WDKeyboardManagerSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WDKeyboardManagerSwift.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5221DAF1E7217CD00FB00CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5221DC61E7217CE00FB00CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5221DD11E7217CE00FB00CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5221DA91E7217CD00FB00CA = {
+			isa = PBXGroup;
+			children = (
+				F5221DB41E7217CD00FB00CA /* WDKeyboardManagerSwift */,
+				F5221DCC1E7217CE00FB00CA /* WDKeyboardManagerSwiftTests */,
+				F5221DD71E7217CE00FB00CA /* WDKeyboardManagerSwiftUITests */,
+				F5221DB31E7217CD00FB00CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5221DB31E7217CD00FB00CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5221DB21E7217CD00FB00CA /* WDKeyboardManagerSwift.app */,
+				F5221DC91E7217CE00FB00CA /* WDKeyboardManagerSwiftTests.xctest */,
+				F5221DD41E7217CE00FB00CA /* WDKeyboardManagerSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5221DB41E7217CD00FB00CA /* WDKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F5221DB51E7217CD00FB00CA /* AppDelegate.swift */,
+				F5221DE61E7217FD00FB00CA /* Main.storyboard */,
+				F5221DE81E72189400FB00CA /* ViewControllers */,
+				F5221DBF1E7217CD00FB00CA /* Assets.xcassets */,
+				F5221DC11E7217CD00FB00CA /* LaunchScreen.storyboard */,
+				F5221DC41E7217CD00FB00CA /* Info.plist */,
+				F5221DEF1E721C8200FB00CA /* WDKeyboardManagerSwift */,
+				F5221DBC1E7217CD00FB00CA /* WDKeyboardManagerSwift.xcdatamodeld */,
+			);
+			path = WDKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		F5221DCC1E7217CE00FB00CA /* WDKeyboardManagerSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5221DCD1E7217CE00FB00CA /* WDKeyboardManagerSwiftTests.swift */,
+				F5221DCF1E7217CE00FB00CA /* Info.plist */,
+			);
+			path = WDKeyboardManagerSwiftTests;
+			sourceTree = "<group>";
+		};
+		F5221DD71E7217CE00FB00CA /* WDKeyboardManagerSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5221DD81E7217CE00FB00CA /* WDKeyboardManagerSwiftUITests.swift */,
+				F5221DDA1E7217CE00FB00CA /* Info.plist */,
+			);
+			path = WDKeyboardManagerSwiftUITests;
+			sourceTree = "<group>";
+		};
+		F5221DE81E72189400FB00CA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F5221DE91E7218B500FB00CA /* Page1ViewController.swift */,
+				F5221DEB1E7218BE00FB00CA /* Page2ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F5221DEF1E721C8200FB00CA /* WDKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F5221DF01E721C8200FB00CA /* WDKeyboardManagerSwift.swift */,
+			);
+			path = WDKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5221DB11E7217CD00FB00CA /* WDKeyboardManagerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5221DDD1E7217CE00FB00CA /* Build configuration list for PBXNativeTarget "WDKeyboardManagerSwift" */;
+			buildPhases = (
+				F5221DAE1E7217CD00FB00CA /* Sources */,
+				F5221DAF1E7217CD00FB00CA /* Frameworks */,
+				F5221DB01E7217CD00FB00CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WDKeyboardManagerSwift;
+			productName = WDKeyboardManagerSwift;
+			productReference = F5221DB21E7217CD00FB00CA /* WDKeyboardManagerSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5221DC81E7217CE00FB00CA /* WDKeyboardManagerSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5221DE01E7217CE00FB00CA /* Build configuration list for PBXNativeTarget "WDKeyboardManagerSwiftTests" */;
+			buildPhases = (
+				F5221DC51E7217CE00FB00CA /* Sources */,
+				F5221DC61E7217CE00FB00CA /* Frameworks */,
+				F5221DC71E7217CE00FB00CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5221DCB1E7217CE00FB00CA /* PBXTargetDependency */,
+			);
+			name = WDKeyboardManagerSwiftTests;
+			productName = WDKeyboardManagerSwiftTests;
+			productReference = F5221DC91E7217CE00FB00CA /* WDKeyboardManagerSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5221DD31E7217CE00FB00CA /* WDKeyboardManagerSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5221DE31E7217CE00FB00CA /* Build configuration list for PBXNativeTarget "WDKeyboardManagerSwiftUITests" */;
+			buildPhases = (
+				F5221DD01E7217CE00FB00CA /* Sources */,
+				F5221DD11E7217CE00FB00CA /* Frameworks */,
+				F5221DD21E7217CE00FB00CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5221DD61E7217CE00FB00CA /* PBXTargetDependency */,
+			);
+			name = WDKeyboardManagerSwiftUITests;
+			productName = WDKeyboardManagerSwiftUITests;
+			productReference = F5221DD41E7217CE00FB00CA /* WDKeyboardManagerSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5221DAA1E7217CD00FB00CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Vladimir Dinic";
+				TargetAttributes = {
+					F5221DB11E7217CD00FB00CA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SWMG5MXUC3;
+						ProvisioningStyle = Automatic;
+					};
+					F5221DC81E7217CE00FB00CA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SWMG5MXUC3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F5221DB11E7217CD00FB00CA;
+					};
+					F5221DD31E7217CE00FB00CA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SWMG5MXUC3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F5221DB11E7217CD00FB00CA;
+					};
+				};
+			};
+			buildConfigurationList = F5221DAD1E7217CD00FB00CA /* Build configuration list for PBXProject "WDKeyboardManagerSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5221DA91E7217CD00FB00CA;
+			productRefGroup = F5221DB31E7217CD00FB00CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5221DB11E7217CD00FB00CA /* WDKeyboardManagerSwift */,
+				F5221DC81E7217CE00FB00CA /* WDKeyboardManagerSwiftTests */,
+				F5221DD31E7217CE00FB00CA /* WDKeyboardManagerSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5221DB01E7217CD00FB00CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5221DC31E7217CD00FB00CA /* LaunchScreen.storyboard in Resources */,
+				F5221DC01E7217CD00FB00CA /* Assets.xcassets in Resources */,
+				F5221DE71E7217FD00FB00CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5221DC71E7217CE00FB00CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5221DD21E7217CE00FB00CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5221DAE1E7217CD00FB00CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5221DEA1E7218B500FB00CA /* Page1ViewController.swift in Sources */,
+				F5221DBE1E7217CD00FB00CA /* WDKeyboardManagerSwift.xcdatamodeld in Sources */,
+				F5221DEC1E7218BE00FB00CA /* Page2ViewController.swift in Sources */,
+				F5221DB61E7217CD00FB00CA /* AppDelegate.swift in Sources */,
+				F5221DF11E721C8200FB00CA /* WDKeyboardManagerSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5221DC51E7217CE00FB00CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5221DCE1E7217CE00FB00CA /* WDKeyboardManagerSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5221DD01E7217CE00FB00CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5221DD91E7217CE00FB00CA /* WDKeyboardManagerSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5221DCB1E7217CE00FB00CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5221DB11E7217CD00FB00CA /* WDKeyboardManagerSwift */;
+			targetProxy = F5221DCA1E7217CE00FB00CA /* PBXContainerItemProxy */;
+		};
+		F5221DD61E7217CE00FB00CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5221DB11E7217CD00FB00CA /* WDKeyboardManagerSwift */;
+			targetProxy = F5221DD51E7217CE00FB00CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5221DC11E7217CD00FB00CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5221DC21E7217CD00FB00CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5221DDB1E7217CE00FB00CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5221DDC1E7217CE00FB00CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5221DDE1E7217CE00FB00CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SWMG5MXUC3;
+				INFOPLIST_FILE = WDKeyboardManagerSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladimirdinic.WDKeyboardManagerSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F5221DDF1E7217CE00FB00CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SWMG5MXUC3;
+				INFOPLIST_FILE = WDKeyboardManagerSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladimirdinic.WDKeyboardManagerSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F5221DE11E7217CE00FB00CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SWMG5MXUC3;
+				INFOPLIST_FILE = WDKeyboardManagerSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladimirdinic.WDKeyboardManagerSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WDKeyboardManagerSwift.app/WDKeyboardManagerSwift";
+			};
+			name = Debug;
+		};
+		F5221DE21E7217CE00FB00CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SWMG5MXUC3;
+				INFOPLIST_FILE = WDKeyboardManagerSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladimirdinic.WDKeyboardManagerSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WDKeyboardManagerSwift.app/WDKeyboardManagerSwift";
+			};
+			name = Release;
+		};
+		F5221DE41E7217CE00FB00CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SWMG5MXUC3;
+				INFOPLIST_FILE = WDKeyboardManagerSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladimirdinic.WDKeyboardManagerSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WDKeyboardManagerSwift;
+			};
+			name = Debug;
+		};
+		F5221DE51E7217CE00FB00CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SWMG5MXUC3;
+				INFOPLIST_FILE = WDKeyboardManagerSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladimirdinic.WDKeyboardManagerSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WDKeyboardManagerSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5221DAD1E7217CD00FB00CA /* Build configuration list for PBXProject "WDKeyboardManagerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5221DDB1E7217CE00FB00CA /* Debug */,
+				F5221DDC1E7217CE00FB00CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5221DDD1E7217CE00FB00CA /* Build configuration list for PBXNativeTarget "WDKeyboardManagerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5221DDE1E7217CE00FB00CA /* Debug */,
+				F5221DDF1E7217CE00FB00CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5221DE01E7217CE00FB00CA /* Build configuration list for PBXNativeTarget "WDKeyboardManagerSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5221DE11E7217CE00FB00CA /* Debug */,
+				F5221DE21E7217CE00FB00CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5221DE31E7217CE00FB00CA /* Build configuration list for PBXNativeTarget "WDKeyboardManagerSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5221DE41E7217CE00FB00CA /* Debug */,
+				F5221DE51E7217CE00FB00CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F5221DBC1E7217CD00FB00CA /* WDKeyboardManagerSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F5221DBD1E7217CD00FB00CA /* WDKeyboardManagerSwift.xcdatamodel */,
+			);
+			currentVersion = F5221DBD1E7217CD00FB00CA /* WDKeyboardManagerSwift.xcdatamodel */;
+			path = WDKeyboardManagerSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F5221DAA1E7217CD00FB00CA /* Project object */;
+}
